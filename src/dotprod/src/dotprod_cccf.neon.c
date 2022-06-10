@@ -23,6 +23,7 @@
 // 
 // Floating-point dot product (ARM Neon)
 //
+#ifndef ARDUINO
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -368,3 +369,4 @@ int dotprod_cccf_execute_neon4(dotprod_cccf    _q,
     return LIQUID_OK;
 }
 
+#endif

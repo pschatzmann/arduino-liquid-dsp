@@ -30,5 +30,5 @@
 #define T               float
 #define TP              float
 
-#include "vector_mul.proto.c"
+#include "vector_mul.proto.inc"
 

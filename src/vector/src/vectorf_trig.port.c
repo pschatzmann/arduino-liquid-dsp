@@ -32,5 +32,5 @@
 
 #define T_COMPLEX       0
 
-#include "vector_trig.proto.c"
+#include "vector_trig.proto.inc"
 

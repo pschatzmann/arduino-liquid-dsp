@@ -42,7 +42,7 @@
     printf("  : %12.4e", V);
 
 // prototypes
-#include "cbuffer.proto.c"
-#include "wdelay.proto.c"
-#include "window.proto.c"
+#include "cbuffer.proto.inc"
+#include "wdelay.proto.inc"
+#include "window.proto.inc"
 

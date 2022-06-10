@@ -46,7 +46,7 @@
 #define PRINTVAL(V)         printf(" %1u", V);
 
 // prototypes
-#include "smatrix.proto.c"
+#include "smatrix.proto.inc"
 
 // 
 // smatrix cross methods

@@ -68,23 +68,23 @@
 #define PRINTVAL_TI(X,F)    PRINTVAL_CFLOAT(X,F)
 
 // prototype files
-//#include "autocorr.proto.c"
-#include "fdelay.proto.c"
-#include "fftfilt.proto.c"
-#include "firdecim.proto.c"
-#include "firfarrow.proto.c"
-#include "firfilt.proto.c"
-#include "firinterp.proto.c"
-#include "firpfb.proto.c"
-#include "iirdecim.proto.c"
-#include "iirfilt.proto.c"
-#include "iirfiltsos.proto.c"
-#include "iirinterp.proto.c"
-#include "msresamp.proto.c"
-#include "msresamp2.proto.c"
+//#include "autocorr.proto.inc"
+#include "fdelay.proto.inc"
+#include "fftfilt.proto.inc"
+#include "firdecim.proto.inc"
+#include "firfarrow.proto.inc"
+#include "firfilt.proto.inc"
+#include "firinterp.proto.inc"
+#include "firpfb.proto.inc"
+#include "iirdecim.proto.inc"
+#include "iirfilt.proto.inc"
+#include "iirfiltsos.proto.inc"
+#include "iirinterp.proto.inc"
+#include "msresamp.proto.inc"
+#include "msresamp2.proto.inc"
 // ordfilt
-#include "rresamp.proto.c"
-//#include "resamp.proto.c"         // floating-point phase version
-#include "resamp.fixed.proto.c" // fixed-point phase version
-#include "resamp2.proto.c"
-#include "symsync.proto.c"
+#include "rresamp.proto.inc"
+//#include "resamp.proto.inc"         // floating-point phase version
+#include "resamp.fixed.proto.inc" // fixed-point phase version
+#include "resamp2.proto.inc"
+#include "symsync.proto.inc"

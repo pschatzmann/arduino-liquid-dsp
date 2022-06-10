@@ -40,13 +40,13 @@
     printf("%12.8f", matrix_access(X,R,C,r,c));
 
 // prototypes
-#include "matrix.base.proto.c"
-#include "matrix.cgsolve.proto.c"
-#include "matrix.chol.proto.c"
-#include "matrix.gramschmidt.proto.c"
-#include "matrix.inv.proto.c"
-#include "matrix.linsolve.proto.c"
-#include "matrix.ludecomp.proto.c"
-#include "matrix.qrdecomp.proto.c"
-#include "matrix.math.proto.c"
+#include "matrix.base.proto.inc"
+#include "matrix.cgsolve.proto.inc"
+#include "matrix.chol.proto.inc"
+#include "matrix.gramschmidt.proto.inc"
+#include "matrix.inv.proto.inc"
+#include "matrix.linsolve.proto.inc"
+#include "matrix.ludecomp.proto.inc"
+#include "matrix.qrdecomp.proto.inc"
+#include "matrix.math.proto.inc"
 

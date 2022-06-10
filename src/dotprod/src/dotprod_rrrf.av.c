@@ -20,6 +20,8 @@
  * THE SOFTWARE.
  */
 
+#ifndef ARDUINO
+
 // 
 // Floating-point dot product (altivec velocity engine)
 //
@@ -228,3 +230,4 @@ int dotprod_rrrf_execute(dotprod_rrrf _q,
     return LIQUID_OK;
 }
 
+#endif

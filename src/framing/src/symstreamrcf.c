@@ -41,5 +41,5 @@
 #define SYMSTREAMR(name)    LIQUID_CONCAT(symstreamrcf, name)
 
 // prototypes
-#include "symstreamr.proto.c"
+#include "symstreamr.proto.inc"
 

@@ -49,5 +49,5 @@
 #define TI_COMPLEX
 
 // prototypes
-#include "bpresync.proto.c"
+#include "bpresync.proto.inc"
 

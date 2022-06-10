@@ -46,5 +46,5 @@
 #define PRINTVAL(V)         printf(" %3d", V);
 
 // prototypes
-#include "smatrix.proto.c"
+#include "smatrix.proto.inc"
 

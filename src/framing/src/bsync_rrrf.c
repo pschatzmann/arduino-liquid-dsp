@@ -43,5 +43,5 @@
 #undef  TI_COMPLEX
 
 // prototypes
-#include "bsync.proto.c"
+#include "bsync.proto.inc"
 

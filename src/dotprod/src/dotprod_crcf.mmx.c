@@ -23,6 +23,7 @@
 // 
 // Floating-point dot product (MMX)
 //
+#ifndef ARDUINO
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -314,3 +315,4 @@ int dotprod_crcf_execute_mmx4(dotprod_crcf    _q,
     return LIQUID_OK;
 }
 
+#endif

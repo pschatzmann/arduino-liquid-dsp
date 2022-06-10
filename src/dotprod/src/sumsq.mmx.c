@@ -20,6 +20,8 @@
  * THE SOFTWARE.
  */
 
+#ifndef ARDUINO
+
 //
 // sumsq.mmx.c : floating-point sum of squares (MMX)
 //
@@ -113,3 +115,5 @@ float liquid_sumsqcf(float complex * _v,
     float * v = (float*) _v;
     return liquid_sumsqf(v, 2*_n);
 }
+
+#endif

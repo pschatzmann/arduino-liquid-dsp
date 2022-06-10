@@ -52,5 +52,5 @@
 #define TI_COMPLEX
 
 // prototypes
-#include "presync.proto.c"
+#include "presync.proto.inc"
 

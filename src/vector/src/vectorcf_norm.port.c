@@ -30,5 +30,5 @@
 #define T               float complex
 #define TP              float
 
-#include "vector_norm.proto.c"
+#include "vector_norm.proto.inc"
 

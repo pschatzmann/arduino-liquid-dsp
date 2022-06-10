@@ -39,6 +39,6 @@
 #define LIQUID_PI   (3.14159265358979323846264338327950288f)
 
 // prototypes
-#include "nco.proto.c"
-#include "synth.proto.c"
+#include "nco.proto.inc"
+#include "synth.proto.inc"
 

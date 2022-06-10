@@ -43,6 +43,6 @@
 #define PRINTVAL(V)     printf("%5.2f ", V);
 
 // prototypes
-#include "eqlms.proto.c"
-#include "eqrls.proto.c"
+#include "eqlms.proto.inc"
+#include "eqrls.proto.inc"
 

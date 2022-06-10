@@ -20,6 +20,8 @@
  * THE SOFTWARE.
  */
 
+#ifndef ARDUINO
+
 // 
 // Floating-point dot product (MMX)
 //
@@ -408,3 +410,4 @@ int dotprod_cccf_execute_mmx4(dotprod_cccf    _q,
     return LIQUID_OK;
 }
 
+#endif

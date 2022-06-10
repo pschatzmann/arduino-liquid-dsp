@@ -36,4 +36,4 @@
 #define TC_COMPLEX      1
 #define TI_COMPLEX      1
 
-#include "dotprod.proto.c"
+#include "dotprod.proto.inc"

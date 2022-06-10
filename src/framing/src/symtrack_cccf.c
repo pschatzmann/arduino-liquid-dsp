@@ -51,5 +51,5 @@
 #define TI_COMPLEX          1
 
 // prototypes
-#include "symtrack.proto.c"
+#include "symtrack.proto.inc"
 

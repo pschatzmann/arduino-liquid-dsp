@@ -149,7 +149,7 @@ LIQUID_DEFINE_COMPLEX(float,  liquid_float_complex);
 LIQUID_DEFINE_COMPLEX(double, liquid_double_complex);
 
 // external compile-time deprecation warnings with messages
-#ifdef __GNUC__
+#if defined(__GNUC__) && !defined(ARDUINO)
 #   define DEPRECATED(MSG,X) X __attribute__((deprecated (MSG)))
 #elif defined(_MSC_VER)
 #   define DEPRECATED(MSG,X) __declspec(deprecated) X

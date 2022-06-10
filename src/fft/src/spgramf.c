@@ -47,7 +47,7 @@
 #define PRINTVAL_TI(X,F)    PRINTVAL_FLOAT(X,F)
 
 // prototypes
-#include "asgram.proto.c"
-#include "spgram.proto.c"
-#include "spwaterfall.proto.c"
+#include "asgram.proto.inc"
+#include "spgram.proto.inc"
+#include "spwaterfall.proto.inc"
 

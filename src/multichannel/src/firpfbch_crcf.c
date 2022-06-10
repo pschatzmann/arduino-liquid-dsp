@@ -51,7 +51,7 @@
 #define PRINTVAL_TI(X,F)    PRINTVAL_CFLOAT(X,F)
 
 // prototypes
-#include "firpfbch.proto.c"     // maximally-decimated polyphase filterbank
-#include "firpfbch2.proto.c"    // polyphase filterbank w/ output rate 2 Fs / M
-#include "firpfbchr.proto.c"    // polyphase filterbank w/ output rate P Fs / M
+#include "firpfbch.proto.inc"     // maximally-decimated polyphase filterbank
+#include "firpfbch2.proto.inc"    // polyphase filterbank w/ output rate 2 Fs / M
+#include "firpfbchr.proto.inc"    // polyphase filterbank w/ output rate P Fs / M
 

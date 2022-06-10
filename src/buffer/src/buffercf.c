@@ -42,7 +42,7 @@
     printf("  : %12.4e + %12.4e", crealf(V), cimagf(V));
 
 // prototypes
-#include "cbuffer.proto.c"
-#include "window.proto.c"
-#include "wdelay.proto.c"
+#include "cbuffer.proto.inc"
+#include "window.proto.inc"
+#include "wdelay.proto.inc"
 

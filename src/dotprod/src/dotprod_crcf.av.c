@@ -20,6 +20,8 @@
  * THE SOFTWARE.
  */
 
+#ifndef ARDUINO
+
 // 
 // Complex floating-point dot product (altivec velocity engine)
 //
@@ -235,3 +237,4 @@ int dotprod_crcf_execute(dotprod_crcf    _q,
     return LIQUID_OK;
 }
 
+#endif

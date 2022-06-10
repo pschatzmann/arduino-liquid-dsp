@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "autotest.h": "c",
+        "assert.h": "c"
+    }
+}

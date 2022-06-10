@@ -40,9 +40,9 @@
 #define TC_ABS(X)       cabsf(X)
 
 // prototypes
-#include "poly.common.proto.c"
-#include "poly.expand.proto.c"
-#include "poly.lagrange.proto.c"
+#include "poly.common.proto.inc"
+#include "poly.expand.proto.inc"
+#include "poly.lagrange.proto.inc"
 
 // finds the complex roots of the polynomial
 //  _p      :   polynomial array, ascending powers [size: _k x 1]

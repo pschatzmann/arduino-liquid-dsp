@@ -39,4 +39,4 @@
 #define TC_COMPLEX          1
 
 // prototypes
-#include "agc.proto.c"
+#include "agc.proto.inc"

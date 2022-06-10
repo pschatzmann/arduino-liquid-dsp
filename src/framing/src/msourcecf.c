@@ -44,6 +44,6 @@
 #define SYMSTREAM(name)     LIQUID_CONCAT(symstreamcf,name)
 
 // prototypes
-#include "msource.proto.c"
-#include "qsource.proto.c"
+#include "msource.proto.inc"
+#include "qsource.proto.inc"
 

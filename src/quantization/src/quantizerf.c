@@ -34,5 +34,5 @@
 #define T_COMPLEX           0
 
 // prototypes
-#include "quantizer.proto.c"
+#include "quantizer.proto.inc"
 

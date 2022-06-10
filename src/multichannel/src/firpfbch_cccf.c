@@ -49,5 +49,5 @@
 #define PRINTVAL_TI(X,F)    PRINTVAL_CFLOAT(X,F)
 
 // prototypes
-#include "firpfbch.proto.c"
+#include "firpfbch.proto.inc"
 

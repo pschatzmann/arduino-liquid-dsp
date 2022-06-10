@@ -46,4 +46,4 @@
 #define PRINTVAL(V)         printf(" %6.2f", V);
 
 // prototypes
-#include "smatrix.proto.c"
+#include "smatrix.proto.inc"

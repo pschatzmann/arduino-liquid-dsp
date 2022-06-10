@@ -20,6 +20,8 @@
  * THE SOFTWARE.
  */
 
+#ifndef ARDUINO
+
 // 
 // Floating-point dot product (SSE4.1/2)
 //
@@ -262,3 +264,4 @@ int dotprod_rrrf_execute_sse4u(dotprod_rrrf _q,
     return LIQUID_OK;
 }
 
+#endif

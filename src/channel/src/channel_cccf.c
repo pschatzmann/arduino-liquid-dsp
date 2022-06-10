@@ -48,6 +48,6 @@
 #define PRINTVAL_TC(X,F) PRINTVAL_CFLOAT(X,F)
 
 // prototypes
-#include "channel.proto.c"
-#include "tvmpch.proto.c"
+#include "channel.proto.inc"
+#include "tvmpch.proto.inc"
 

@@ -20,6 +20,8 @@
  * THE SOFTWARE.
  */
 
+#ifndef ARDUINO
+
 // 
 // Floating-point dot product (ARM Neon)
 //
@@ -245,3 +247,4 @@ int dotprod_rrrf_execute(dotprod_rrrf _q,
     return dotprod_rrrf_run4(_q->h, _x, _q->n, _y);
 }
 
+#endif

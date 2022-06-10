@@ -37,11 +37,11 @@
 #define PRINTVAL_TC(X,F)    PRINTVAL_CFLOAT(X,F)
 
 // include prototypes
-#include "fft_common.proto.c"       // common source must come first (object definition)
-#include "fft_dft.proto.c"          // FFT definitions for DFT
-#include "fft_radix2.proto.c"       // FFT definitions for radix-2 transforms
-#include "fft_mixed_radix.proto.c"  // FFT definitions for mixed-radix transforms (Cooley-Tukey)
-#include "fft_rader.proto.c"        // FFT definitions for transforms of prime length (Rader's algorithm)
-#include "fft_rader2.proto.c"       // FFT definitions for transforms of prime length (Rader's alternate algorithm)
-#include "fft_r2r_1d.proto.c"       // real-to-real definitions (DCT/DST)
+#include "fft_common.proto.inc"       // common source must come first (object definition)
+#include "fft_dft.proto.inc"          // FFT definitions for DFT
+#include "fft_radix2.proto.inc"       // FFT definitions for radix-2 transforms
+#include "fft_mixed_radix.proto.inc"  // FFT definitions for mixed-radix transforms (Cooley-Tukey)
+#include "fft_rader.proto.inc"        // FFT definitions for transforms of prime length (Rader's algorithm)
+#include "fft_rader2.proto.inc"       // FFT definitions for transforms of prime length (Rader's alternate algorithm)
+#include "fft_r2r_1d.proto.inc"       // real-to-real definitions (DCT/DST)
 

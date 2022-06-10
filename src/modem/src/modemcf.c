@@ -41,27 +41,27 @@
 #define EXTENSION           "cf"
 
 // common source must come first (object definition)
-#include "modem_common.proto.c"
+#include "modem_common.proto.inc"
 
 // generic modem specifications
-#include "modem_psk.proto.c"
-#include "modem_dpsk.proto.c"
-#include "modem_ask.proto.c"
-#include "modem_qam.proto.c"
-#include "modem_apsk.proto.c"
+#include "modem_psk.proto.inc"
+#include "modem_dpsk.proto.inc"
+#include "modem_ask.proto.inc"
+#include "modem_qam.proto.inc"
+#include "modem_apsk.proto.inc"
 
 // specific modems
-#include "modem_bpsk.proto.c"
-#include "modem_qpsk.proto.c"
-#include "modem_ook.proto.c"
-#include "modem_pi4dqpsk.proto.c"
-#include "modem_sqam32.proto.c"
-#include "modem_sqam128.proto.c"
+#include "modem_bpsk.proto.inc"
+#include "modem_qpsk.proto.inc"
+#include "modem_ook.proto.inc"
+#include "modem_pi4dqpsk.proto.inc"
+#include "modem_sqam32.proto.inc"
+#include "modem_sqam128.proto.inc"
 
 // arbitary modems
-#include "modem_arb.proto.c"
+#include "modem_arb.proto.inc"
 
 // analog modems
-#include "freqmod.proto.c"
-#include "freqdem.proto.c"
+#include "freqmod.proto.inc"
+#include "freqdem.proto.inc"
 

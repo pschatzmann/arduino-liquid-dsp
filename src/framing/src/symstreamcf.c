@@ -41,5 +41,5 @@
 #define FIRINTERP(name)     LIQUID_CONCAT(firinterp_crcf,name)
 
 // prototypes
-#include "symstream.proto.c"
+#include "symstream.proto.inc"
 
