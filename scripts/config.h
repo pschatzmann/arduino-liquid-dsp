@@ -16,7 +16,7 @@
 #define HAVE_CEXPF 1
 
 /* Define to 1 if you have the `cimagf' function. */
-#define HAVE_CIMAGF 1
+#define HAVE_CIMAGF 0
 
 /* Define to 1 if you have the <complex.h> header file. */
 #define HAVE_COMPLEX_H 1
@@ -25,7 +25,7 @@
 #define HAVE_COSF 1
 
 /* Define to 1 if you have the `crealf' function. */
-#define HAVE_CREALF 1
+#define HAVE_CREALF 0
 
 /* Define to 1 if you have the <emmintrin.h> header file. */
 /* #undef HAVE_EMMINTRIN_H */

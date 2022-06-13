@@ -1279,6 +1279,7 @@ install: all
 ## TARGET : uninstall - uninstalls the libraries and header files in the host system
 ##
 
+
 uninstall:
 	@echo "uninstalling..."
 	$(RM) $(addprefix $(DESTDIR)$(prefix)/include/liquid/, $(headers_install))
@@ -1789,7 +1790,7 @@ clean-sandbox:
 ##
 ## TARGET : programs  - build all programs, but don't run anything
 ##
-programs: all xautotest benchmark examples sandbox
+programs: all examples sandbox
 
 ##
 ## TARGET : world     - build absolutely everything
