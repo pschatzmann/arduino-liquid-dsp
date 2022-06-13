@@ -48,3 +48,6 @@ src/utility/gentab/count_ones.c
 sandbox/*_test
 sandbox/*_example
 sandbox/*_gentab
+
+# vscode
+.vscode/
