@@ -19,7 +19,7 @@ flexible, scalable, and dynamic, including filters, filter design,
 oscillators, modems, synchronizers, complex mathematical operations, and
 much more.
 
-This is an adapted version of Joseph D. Gaeddert's [liquid-dsp](https://github.com/jgaeddert/liquid-dsp)  which can be used as Arduino library.
+This is an adapted version of Joseph D. Gaeddert's [liquid-dsp](https://github.com/jgaeddert/liquid-dsp)  so that it can be used as Arduino library.
 
 ```c++
 // get in, manipulate data, get out
@@ -66,18 +66,7 @@ I recommend to use git because you can easily update to the latest version just 
 ### Examples ###
 
 Nearly all signal processing elements have a corresponding example in
-the `examples/` directory.  Most example scripts generate an output
-`.m` file for plotting with [GNU octave](https://www.gnu.org/software/octave/)
-All examples are built as stand-alone programs and can be compiled with
-the make target `examples`:
-
-    make examples
-
-Sometimes, however, it is useful to build one example individually.
-This can be accomplished by directly targeting its binary
-(e.g. `make examples/modem_example`). The example then can be run at the
-command line, viz. `./examples/modem_example`.
-
+the `examples/` directory. However you need to adapt them e.g. replace the main() with setup() to use them in Arduino. 
 
 ### PlatformIO ###
 
