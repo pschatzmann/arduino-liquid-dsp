@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <complex.h>
 #include <liquid.h>
+#include <complex>
 
 void setup() {
     Serial.begin(115200);
@@ -33,7 +33,7 @@ void setup() {
     int frame_complete = 0;
     while (!frame_complete) {
         // generate symbol (write samples to buffer)
-        frame_complete = ofdmflexframegen_write(fg, buf, buf_len);
+        frame_complete = ofdmflexframegen_write(fg, (std::complex<float> *)buf, buf_len);
 
         // print status
         printf("ofdmflexframegen wrote to buffer%s\n",
